@@ -1,5 +1,5 @@
-# Affiliates - Free Jekyll Theme
+# EtiCCista
+Piloto de plataforma educacional aberta, acessível e colaborativa para inserir temas relativos a ética e governança da tecnologia em cursos superiores de Ciência da Computação.
 
-[Live Demo](https://wowthemesnet.github.io/affiliates-jekyll-theme/) | [Docs & Download](https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/) |  [Buy me a coffee](https://www.wowthemes.net/donate/)
-
-![jekyll-affiliates-theme](https://bootstrapstarter.com/assets/img/themes/affiliates-jekyll.jpg)
+### Credits
+Made with [Affiliates](https://github.com/wowthemesnet/affiliates-jekyll-theme) by Wowthemes.
