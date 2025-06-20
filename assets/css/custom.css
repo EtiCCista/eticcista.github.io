@@ -4,3 +4,7 @@ Just customize your theme here.
 ================================================== */
 
 body {}
+
+.mr-2{
+    max-width: 55%;
+}
