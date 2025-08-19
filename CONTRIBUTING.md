@@ -30,7 +30,7 @@ Todo tipo de contribuição é encorajada e válida. Veja o [Sumário](#sumario)
 
 Este projeto e todos participando nele estão sujeitos ao
 [Código de Conduta do EtiCCista](https://github.com/EtiCCista/eticcista.github.io/blob//CODE_OF_CONDUCT.md).
-Ao participar, é esperado que você o siga e reporte comportamentos inaceitáveis a [mim](mailto:carolinadias4567@gmail.com).
+Ao participar, é esperado que você o siga e reporte comportamentos inaceitáveis a [mim](mailto:eticcista@gmail.com).
 
 
 ## Tenho Uma Pergunta
@@ -75,7 +75,7 @@ Caso tenha feito tudo isso, colete informações sobre o bug:
 <!-- omit in toc -->
 #### Como eu Submeto um Bom Bug Report?
 
-> Nunca reporte publicamente problemas que tenham a ver com segurança ou informações sensíveis. Caso você identifique algo do tipo, envie um e-mail para [mim](mailto:carolinadias4567@gmail.com) para que possamos marcar uma conversa.
+> Nunca reporte publicamente problemas que tenham a ver com segurança ou informações sensíveis. Caso você identifique algo do tipo, envie um e-mail para [mim](mailto:eticcista@gmail.com) para que possamos marcar uma conversa.
 
 Este projeto usa a funcionalidade Issues do GitHub para monitorar bugs e erros. Se você encontrar um problema:
 
