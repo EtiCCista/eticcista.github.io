@@ -1,21 +1,21 @@
-name: Prepare Release
+---
+name: "prepare-release"
+
 on:
   push:
     branches:
-      - main
-
-permissions:
-  contents: write
-
+      - "main"
+  workflow_dispatch:
+    
 jobs:
-  release:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
+  pre-release:
+    name: "Prepare Release"
+    runs-on: "ubuntu-latest"
 
-      - name: Create Release Tag
-        uses: marvinpinto/action-automatic-releases@latest
+    steps:
+      - uses: "marvinpinto/action-automatic-releases@latest"
         with:
-          repo_token: ${{ secrets.ETI_TOKEN }}
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "latest"
-          prerelease: false
+          prerelease: true
+          title: "Next Release"
