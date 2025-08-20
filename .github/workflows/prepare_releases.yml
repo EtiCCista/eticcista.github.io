@@ -16,6 +16,6 @@ jobs:
       - name: Create Release Tag
         uses: marvinpinto/action-automatic-releases@latest
         with:
-          repo_token: ${{ secrets.ORG_TOKEN }}
+          repo_token: ${{ secrets.ETI_TOKEN }}
           automatic_release_tag: "latest"
           prerelease: false
