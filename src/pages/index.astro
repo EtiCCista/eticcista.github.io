@@ -8,113 +8,43 @@ import ExternalLink from '@components/ExternalLink.astro'
 import { Accordion, AccordionItem, Avatar, AvatarGroup } from 'accessible-astro-components'
 ---
 
-<DefaultLayout title="Home">
+<DefaultLayout title="Início">
   <Hero />
-  <section class="my-64">
-    <div class="container">
-      <h2 class="mb-16 text-6xl">Features</h2>
-      <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
-        <Feature icon="lucide:accessibility" title="Accessible by default">
-          Keyboard navigation, focus indicators, ARIA labels, semantic HTML, and more. This theme is designed to be
-          inclusive.
-        </Feature>
-        <Feature icon="lucide:puzzle" title="A11Y components">
-          25+ components and counting, all tried and tested for the most optimal accessible experience for your
-          visitors.
-        </Feature>
-        <Feature icon="lucide:moon" title="Dark mode">
-          Fully integrated Dark mode gives your users the choice for their favorite viewing mode.
-        </Feature>
-        <Feature icon="lucide:paintbrush" title="Tailwind 4.0">
-          Use the power of Tailwind to greatly improve your productivity and enhance your developer workflow.
-        </Feature>
-        <Feature icon="lucide:sparkles" title="Prettier">
-          Less worry about formatting your code, let the Astro Prettier integration do the heavy lifting.
-        </Feature>
-        <Feature icon="lucide:code" title="ESLint">
-          Lint your code with strict a11y settings to ensure you stay on track with the WCAG standards.
-        </Feature>
-        <Feature icon="lucide:bookmark" title="Blog & portfolio">
-          This theme comes with a fully integrated blog and portfolio, dynamic pages and SEO optimization.
-        </Feature>
-        <Feature icon="lucide:file-text" title="Markdown & MDX">
-          Easily use .md and .mdx pages to build your websites or use it with Netlify CMS.
-        </Feature>
-        <Feature icon="lucide:blocks" title="Design system">
-          The theme offers some very handy utilities to help you build your website faster.
-        </Feature>
-      </div>
-    </div>
-  </section>
-  <ContentMedia imgSrc="/accessible-components.webp">
-    <h2>Accessible components</h2>
-    <p class="text-2xl">
-      This theme provides plenty of tried and tested Accessible Astro Components. Some are native to this theme and a
-      lot of others are integrated using a <ExternalLink href="https://github.com/incluud/accessible-astro-components"
-        >separate package</ExternalLink
-      >. They'll get you up and running in building an accessible solution for your visitors.
-    </p>
-  </ContentMedia>
-  <ContentMedia imgSrc="/wcag-compliant.webp" reverseImg={true}>
-    <h2>WCAG 2.2 AA compliant</h2>
-    <p class="text-2xl">
-      Using semantic HTML, landmarks, skip links, screen reader friendly content, aria-labels, keyboard accessible
-      navigation and components, clear outlines and tab indicators and the right color contrast, you're more certain of
-      reaching WCAG AA compliance.
-    </p>
-  </ContentMedia>
+ 
   <section class="my-64">
     <div class="container grid grid-cols-1 gap-12 md:grid-cols-2">
       <div class="flex flex-col items-start gap-4">
         <h2 class="text-6xl">FAQ</h2>
         <p class="text-2xl">
-          This section demonstrates how to effectively use the Accordion component to organize and display frequently
-          asked questions in an accessible and user-friendly way.
+          Dúvidas que podem surgir ao interagir com este material.
         </p>
-        <a class="button" href="/faq">Contact support team</a>
+        <a class="button" href="mailto:eticcista@gmail.com">Contato</a>
       </div>
       <div class="space-content">
         <Accordion>
-          <AccordionItem name="exclusive" title="What is WCAG and why is it important?" open>
+          <AccordionItem name="exclusive" title="O que é o EtiCCista?" open>
             <p>
-              WCAG (Web Content Accessibility Guidelines) is a set of internationally recognized standards for web
-              accessibility. Following WCAG ensures your website is usable by people with various disabilities,
-              including visual, auditory, physical, and cognitive impairments. It's important not just for
-              accessibility, but also for legal compliance, SEO, and reaching a wider audience.
+              Inspirado no projeto Embedded EthiCS da Universidade de Stanford, o EtiCCista visa integrar questões éticas no currículo de cursos de Tecnologia da Informação e áreas correlatas através da organização de uma coletânea de materiais (acadêmicos ou não), classificados por assunto. Este projeto foi desenvolvido como o trabalho de conclusão de curso (TCC) de Ana Carolina Sousa Dias no bacharelado em Ciência da Computação na Universidade Federal do Piauí, durante o ano de 2025, inicialmente focando no material sobre internet dos corpos e feminismo de dados. 
             </p>
           </AccordionItem>
-          <AccordionItem name="exclusive" title="What's the difference between ARIA labels and alt text?">
+          <AccordionItem name="exclusive" title="Por que incluir esses assuntos na Computação?">
             <p>
-              Alt text is specifically for describing images to screen reader users, while ARIA labels (aria-label,
-              aria-labelledby) can describe any element on a page. Alt text is HTML's native way to provide alternative
-              text for images, while ARIA labels are part of the ARIA specification that helps make dynamic content and
-              advanced UI controls more accessible.
+              Pretende-se que este projeto contribua para o fortalecimento de uma cultura acadêmica mais crítica e inclusiva no campo, aproximando a comunidade acadêmica de temas que, embora aparentemente distantes da técnica, são profundamente relevantes no contexto contemporâneo. Discutir temas como a Internet dos Corpos equivale a discutir o futuro dos nossos corpos na rede — e quem está (ou não) decidindo isso por eles. 
             </p>
           </AccordionItem>
-          <AccordionItem name="exclusive" title="Why is keyboard navigation important?">
+          <AccordionItem name="exclusive" title="Esse material é exclusivo para cursos de Tecnologia?">
             <p>
-              Keyboard navigation is essential for users who can't use a mouse, including people with motor
-              disabilities, visual impairments, or those who simply prefer keyboard controls. A website should be fully
-              operable using only a keyboard, with visible focus indicators and logical tab order. This includes being
-              able to access all interactive elements and navigate through content efficiently.
+              Por conta do escopo do trabalho de conclusão de curso, os materiais foram inicialmente desenvolvidos com foco em cursos de Tecnologia da Informação. No entanto, a questão é ampla, e é encorajada a adaptação e comentários dos materiais por e para outras áreas do conhecimento.
             </p>
           </AccordionItem>
-          <AccordionItem name="exclusive" title="What is a sufficient color contrast ratio?">
+          <AccordionItem name="exclusive" title="Como posso contribuir com o projeto?">
             <p>
-              According to WCAG 2.2 AA standards, text should have a minimum contrast ratio of 4.5:1 against its
-              background for regular text, and 3:1 for large text (18pt or 14pt bold). For non-text elements like icons
-              or buttons, a minimum ratio of 3:1 is required. This ensures content is readable for users with visual
-              impairments or color blindness.
+              De que forma você gostaria de contribuir? Você pode sugerir novos materiais, enviar feedback sobre os existentes ou ajudar na divulgação do projeto. Para os dois primeiros, recomendo ler <a aria-label="a documentação do projeto" href="https://github.com/eticcista/eticcista.github.io/blob/main/README.md">este arquivo</a> sobre contribuições.
             </p>
           </AccordionItem>
-          <AccordionItem name="exclusive" title="How do I make custom components accessible?">
+          <AccordionItem name="exclusive" title="Sou docente, como aplicar o EtiCCista em sala de aula?">
             <p>
-              To make custom components accessible, focus on these key aspects: use semantic HTML where possible,
-              implement proper keyboard support, add appropriate ARIA attributes, manage focus when needed, and ensure
-              adequate color contrast. Always test with screen readers and keyboard navigation. Consider using
-              established design patterns from the <a href="https://www.w3.org/WAI/ARIA/apg/patterns/"
-                >ARIA Authoring Practices Guide</a
-              >.
+              É possível incorporar os materiais do projeto em palestras, trabalhos de casa e avaliações, em cursos tanto introdutórios como avançados, conectando-os de forma significativa ao conteúdo técnico das matérias. Geralmente, nos materiais listados, há sugestões de implementação em diferentes disciplinas, que podem ser adaptadas de acordo com as demandas de outros cursos e instituições.
             </p>
           </AccordionItem>
         </Accordion>
@@ -123,35 +53,17 @@ import { Accordion, AccordionItem, Avatar, AvatarGroup } from 'accessible-astro-
   </section>
   <section class="my-64">
     <div class="space-content container">
-      <h2 class="text-6xl">Our community</h2>
+      <h2 class="text-6xl">Colaboradores</h2>
       <p class="text-2xl">
-        We're a community of developers who are passionate about making the web more accessible. We're always looking
-        for new ways to improve the accessibility of the web.
+        Envie sua colaboração de acordo com <a href="https://github.com/eticcista/eticcista.github.io/blob/main/README.md">estas instruções</a> e apareça aqui!
       </p>
       <AvatarGroup display="grid" gridItemsSize="300px" gridGap="2rem">
-        <Avatar initials="RJ" title="Robert Johnson" subtitle="Manager" />
-        <Avatar initials="MT" title="Maria Torres" subtitle="Developer" />
-        <Avatar initials="AK" title="Alex Kim" subtitle="Designer" />
-        <Avatar initials="SL" title="Sarah Lee" subtitle="Content Strategist" />
-        <Avatar initials="JP" title="James Peterson" subtitle="QA Engineer" />
-        <Avatar initials="LW" title="Lisa Wong" subtitle="Product Owner" />
-        <Avatar initials="DM" title="David Martinez" subtitle="UX Researcher" />
-        <Avatar initials="EB" title="Emma Brown" subtitle="Accessibility Specialist" />
-        <Avatar initials="TC" title="Thomas Chen" subtitle="Frontend Developer" />
+        <Avatar initials="AC" title="Ana Carolina" subtitle="Criadora" />
+        <Avatar initials="AC" title="Alice Carolina" subtitle="Ilustradora" />
       </AvatarGroup>
     </div>
   </section>
-  <section class="mt-64 mb-32">
-    <div class="container">
-      <h2 class="mb-16 text-6xl">Impact in numbers</h2>
-      <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 md:grid-cols-4">
-        <Counter count="900+" title="Stars" sub="On GitHub" />
-        <Counter count="25+" title="Accessible" sub="Components" />
-        <Counter count="400+" title="Commits" sub="Merged" />
-        <Counter count="48+" title="Months" sub="Since launch" />
-      </div>
-    </div>
-  </section>
+
 </DefaultLayout>
 
 <style>

@@ -14,7 +14,7 @@ interface Props {
   src?: string
 }
 
-const { src = '/astronaut-hero-img.webp' }: Props = Astro.props
+const { src = '/straw-hero.webp' }: Props = Astro.props
 ---
 
 <section class="hero my-24">
@@ -22,16 +22,16 @@ const { src = '/astronaut-hero-img.webp' }: Props = Astro.props
     <div class="grid grid-cols-1 items-center gap-24 lg:grid-cols-2">
       <div class="flex flex-col items-center gap-8 md:items-start">
         <h1 class="text-center text-6xl md:text-left lg:text-8xl">
-          <slot><span class="text-gradient">Accessible</span> Starter for Astro</slot>
+          <slot>tornando a <span class="text-gradient">computação</span> um espaço melhor.</slot>
         </h1>
         <div class="flex flex-col gap-3 min-[500px]:flex-row">
-          <a class="button has-icon" href="https://github.com/incluud/accessible-astro-starter">
+          <a class="button has-icon" href="https://github.com/eticcista/eticcista.github.io/blob/main/README.md">
             <Icon name="lucide:star" />
-            Star on GitHub
+            Colabore
           </a>
-          <a class="button has-icon color-secondary" href="https://accessible-astro.incluud.dev/">
+          <a class="button has-icon color-secondary" href="/materiais">
             <Icon name="lucide:bookmark" />
-            Read the docs
+            Confira o material
           </a>
         </div>
       </div>

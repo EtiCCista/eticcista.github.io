@@ -8,16 +8,12 @@ import type { CollectionEntry } from 'astro:content'
 
 // Import images directly for optimization
 import projectImage1 from '@assets/images/projects/project-image-1.png'
-import projectImage2 from '@assets/images/projects/project-image-2.png'
-import projectImage3 from '@assets/images/projects/project-image-3.png'
-import projectImage4 from '@assets/images/projects/project-image-4.png'
-import projectImage5 from '@assets/images/projects/project-image-5.png'
-import projectImage6 from '@assets/images/projects/project-image-6.png'
 
 export const getStaticPaths = (async ({ paginate }) => {
   const projects = await getCollection('projects')
 
-  const projectImages = [projectImage1, projectImage2, projectImage3, projectImage4, projectImage5, projectImage6]
+  //const projectImages = [projectImage1, projectImage2, projectImage3, projectImage4, projectImage5, projectImage6]
+  const projectImages = [projectImage1]
 
   const projectsWithImages = projects.map((project, index) => {
     return {
@@ -41,26 +37,27 @@ const totalPages = Math.ceil(page.total / page.size)
 ---
 
 <DefaultLayout
-  title="Portfolio"
-  description="A showcase of projects built with Astro Content Collections, demonstrating dynamic content management."
+  title="Materiais"
+  description="Repositório de ideias para integrar mais assuntos de ética ao ensino de Computação e áreas correlatas."
 >
   <PageHeader
-    title="Portfolio"
-    subtitle='A showcase of projects built with Astro Content Collections, demonstrating dynamic content management and organization. Learn more about <a href="https://docs.astro.build/en/guides/content-collections/">Astro Content Collections</a> in the official documentation.'
+    title="Materiais"
+    subtitle='Repositório de ideias para integrar mais assuntos de ética ao ensino de Computação e áreas correlatas.'
     bgType="bordered"
   />
   <section class="my-12">
     <div class="container">
-      <p class="text-sm"><em>Project {page.start + 1} through {page.end + 1} of {page.total} total projects</em></p>
+      <!--p class="text-sm"><em>Listando de {page.start + 1} a {page.end + 1}, de um total de {page.total} projeto(s).</em></p-->
+      <p class="text-sm"><em>Listando o único projeto até agora.</em></p>
       <ul class="my-3 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
         {
           page.data.map((project) => (
             <li>
               <Card
                 imageComponent={project.featuredImage}
-                url={'/portfolio/' + project.id}
+                url={'/materiais/' + project.id}
                 title={project.data.title}
-                footer={'Author: ' + project.data.author}
+                footer={'Por: ' + project.data.author}
               >
                 {project.data.description}
               </Card>
@@ -70,13 +67,13 @@ const totalPages = Math.ceil(page.total / page.size)
       </ul>
       <div class="mt-12 grid place-content-center">
         <Pagination
-          firstPage={page.url.prev ? '/portfolio' : null}
+          firstPage={page.url.prev ? '/materiais' : null}
           previousPage={page.url.prev ? page.url.prev : null}
           nextPage={page.url.next ? page.url.next : null}
-          lastPage={page.url.next ? `/portfolio/${Math.ceil(page.total / page.size)}` : null}
+          lastPage={page.url.next ? `/materiais/${Math.ceil(page.total / page.size)}` : null}
           currentPage={`${page.currentPage}`}
           totalPages={`${Math.ceil(page.total / page.size)}`}
-          ariaLabel="Portfolio pagination"
+          ariaLabel="Materiais - páginas"
         />
       </div>
     </div>

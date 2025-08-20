@@ -10,11 +10,6 @@ export async function getStaticPaths() {
 
   const projectImages = [
     { src: '/projects/project-image-1.png' },
-    { src: '/projects/project-image-2.png' },
-    { src: '/projects/project-image-3.png' },
-    { src: '/projects/project-image-4.png' },
-    { src: '/projects/project-image-5.png' },
-    { src: '/projects/project-image-6.png' },
   ]
 
   return projects.map((project, index) => {
@@ -40,7 +35,7 @@ const { Content } = await render(project)
 const author = {
   name: project.data.author,
   image: '/projects/project-image-1.png',
-  bio: 'Project Creator',
+  bio: 'Criadora',
 }
 ---
 
@@ -59,8 +54,8 @@ const author = {
   </section>
   <section class="my-12">
     <div class="narrow space-content container">
-      <h2>Share this project</h2>
-      <p>Like this project? Share it with your network!</p>
+      <h2>Compartilhe este material</h2>
+      <p>Curtiu? Compartilhe com sua rede!</p>
       <SocialShares />
     </div>
   </section>

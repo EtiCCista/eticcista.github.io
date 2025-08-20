@@ -15,6 +15,7 @@ interface Props {
 }
 
 const { url = Astro.url.href } = Astro.props
+const textToCopy = `Confira este material no EtiCCista: ${(url)}`;
 ---
 
 <ul class="ml-[-10px] flex flex-wrap gap-3 pt-4">
@@ -29,12 +30,6 @@ const { url = Astro.url.href } = Astro.props
     </a>
   </li>
   <li class="animate-bouncing">
-    <a href={`https://x.com/share?url=${encodeURIComponent(url)}`} target="_blank" rel="noopener noreferrer">
-      <span class="sr-only">Share on Twitter</span>
-      <Icon name="lucide:twitter" size={40} />
-    </a>
-  </li>
-  <li class="animate-bouncing">
     <a
       href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`}
       target="_blank"
@@ -44,4 +39,32 @@ const { url = Astro.url.href } = Astro.props
       <Icon name="lucide:linkedin" size={40} />
     </a>
   </li>
+  <li class="animate-bouncing">
+    <button
+    id="copyButton"
+    class="copy-button"
+    title="Copiar texto"
+    data-text={textToCopy}
+    >
+      <span class="sr-only">Copie e cole em qualquer lugar</span>
+      <Icon name="lucide:share-2" size={40} />
+    </a>
+  </li>
 </ul>
+
+<script>
+    const button = document.getElementById("copyButton");
+
+  button.addEventListener("click", async () => {
+    const text = button.dataset.text;
+
+    try {
+      await navigator.clipboard.writeText(text);
+
+      alert("Texto copiado para a área de transferência!");
+    } catch (err) {
+      console.error("Falha ao copiar o texto:", err);
+      alert("Erro ao copiar o texto.");
+    }
+  });
+</script>
