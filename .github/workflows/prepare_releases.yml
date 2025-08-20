@@ -1,21 +1,20 @@
----
-name: "prepare-release"
-
+name: Prepare Release
 on:
   push:
     branches:
-      - "main"
-  workflow_dispatch:
-    
-jobs:
-  pre-release:
-    name: "Prepare Release"
-    runs-on: "ubuntu-latest"
+      - main
 
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
     steps:
-      - uses: "marvinpinto/action-automatic-releases@latest"
+      - uses: actions/checkout@v4
+
+      - name: Create Release Tag
+        uses: marvinpinto/action-automatic-releases@latest
         with:
-          repo_token: "${{ secrets.ORG_TOKEN }}"
-          automatic_release_tag: "latest"
-          prerelease: true
-          title: "Next Release"
+          repo_token: ${{ secrets.ORG_TOKEN }}
+          prerelease: false
