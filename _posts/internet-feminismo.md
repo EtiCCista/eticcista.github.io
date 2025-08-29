@@ -6,7 +6,6 @@ tags:
   - IoT
   - Dados
   - Social
-author: acsd
 ---
 > Este é o projeto que deu origem ao EtiCCista. Em breve, acesse a monografia publicada por Ana Carolina sobre o tema.
 
