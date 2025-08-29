@@ -14,5 +14,5 @@ Apenas [me envie um e-mail](mailto:eticcista@gmail.com) com o assunto "EtiCCista
 ## Colaboradores
 Envie sua colaboração e apareça aqui!
 
-> Criadora: [Ana Carolina](https://github.com/linasdias)
-> Ilustradora: [Alice Carolina]()
+- Criadora: [Ana Carolina](https://github.com/linasdias)
+- Ilustradora: [Alice Carolina]()
