@@ -1,5 +1,5 @@
 ---
-title: Categorias
+title: categorias
 layout: tags
 permalink: /tags/
 ---
