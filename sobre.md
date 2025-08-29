@@ -1,6 +1,7 @@
 ---
 title: sobre
 layout: page
+permalink: /sobre/
 ---
 ##  Sobre o EtiCCista
 

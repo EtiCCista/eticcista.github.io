@@ -1,6 +1,7 @@
 ---
 title: colabore
 layout: page
+permalink: /colabore/
 ---
 ## Como colaborar
 A plataforma é aberta a colaborações de docentes e discentes: inclusão de materiais, indicação de obras, mídia em geral, mas é preciso que tal material passe por uma avaliação prévia.
