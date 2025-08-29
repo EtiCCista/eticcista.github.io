@@ -12,7 +12,7 @@ Pretende-se que este projeto contribua para o fortalecimento de uma cultura acad
 Por conta do escopo do trabalho de conclusão de curso, os materiais foram inicialmente desenvolvidos com foco em cursos de Tecnologia da Informação. No entanto, a questão é ampla, e é encorajada a adaptação e comentários dos materiais por e para outras áreas do conhecimento.
 
 > Como posso contribuir com o projeto?
-De que forma você gostaria de contribuir? Você pode sugerir novos materiais, enviar feedback sobre os existentes ou ajudar na divulgação do projeto. Para os dois primeiros, recomendo ler <a aria-label="a documentação do projeto" href="https://github.com/eticcista/eticcista.github.io/blob/main/README.md">este arquivo</a> sobre contribuições.
+Você pode sugerir novos materiais, enviar feedback sobre os existentes ou ajudar na divulgação do projeto. Apenas preste atenção se sua sugestão já não foi abordada nas Issues ou outros comentários.
 
 > Sou docente, como aplicar o EtiCCista em sala de aula?
 É possível incorporar os materiais do projeto em palestras, trabalhos de casa e avaliações, em cursos tanto introdutórios como avançados, conectando-os de forma significativa ao conteúdo técnico das matérias. Geralmente, nos materiais listados, há sugestões de implementação em diferentes disciplinas, que podem ser adaptadas de acordo com as demandas de outros cursos e instituições.
