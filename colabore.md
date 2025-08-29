@@ -9,7 +9,7 @@ A plataforma é aberta a colaborações de docentes e discentes: inclusão de ma
 Você pode criar uma [Issue](https://github.com/EtiCCista/eticcista.github.io/issues) ou um [pull request](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 
 ### Caso você ache tudo isso muito trabalhoso
-Apenas [me envie um e-mail](mailto:eticcista@gmail.com) com o assunto "EtiCCista" e a sua potencial colaboração.
+[Envie um e-mail](mailto:eticcista@gmail.com) com o assunto "EtiCCista" e a sua potencial colaboração.
 
 ## Colaboradores
 Envie sua colaboração e apareça aqui!
