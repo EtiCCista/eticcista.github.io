@@ -1,21 +1,19 @@
-domain: example.com
-url: https://example.com
-baseurl: "/wind"
+domain: eticcista.github.io
+url: https://eticcista.github.io
+baseurl: ""
 
-title: Wind
-email: wind@example.com
-author: Wind Sample
+title: EtiCCista
+email: eticcista@gmail.com
+author: acsd
 
-lang: en
+lang: pt
 
 plugins:
   - jekyll-seo-tag
 
-color: "#13ccf9"
+color: "#ff006e"
 # disqus:
 #   shortname: example-com
 #
 rrss:
-  email: "example@example.cl"
-  telegram: "https://t.me/"
-  discord: "https://discord.com/"
+  email: "eticcista@gmail.com"
