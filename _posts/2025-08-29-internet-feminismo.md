@@ -22,17 +22,19 @@ O [feminismo interseccional de dados](https://data-feminism.mitpress.mit.edu), c
 - Monografia completa (em breve)
 
 ## Artigos interessantes
-- Artigo 1
-- Artigo 2
-- Artigo 3
+- [Artigo 1]()
+- [Artigo 2]()
+- [Artigo 3]()
 
 ## Recomendações de mídia
-- [Livro Misoginia na Internet, de Mariana Valente](https://internetlab.org.br/wp-content/uploads/2025/08/MisoginiaNaInternet.pdf)
-- Recomendação 2
-- Recomendação 3
+- Livro [Misoginia na Internet, de Mariana Valente](https://internetlab.org.br/wp-content/uploads/2025/08/MisoginiaNaInternet.pdf)
+- Livro [Caiu na net: nudes e exposição de mulheres na Internet](https://editoratelha.com.br/product/caiu-na-net-nudes-e-exposicao-de-mulheres-na-internet)
+- Vídeo []()
+- Vídeo []()
+- Página do IRIS-BH sobre [Cibersegurança e Gênero na América Latina](https://irisbh.com.br/ciberseguranca-e-genero-desafios-e-oportunidades-na-america-latina)
 
 ## Disciplinas
-Sugestões de abordagens baseadas em disciplinas do curso de bacharelado em Ciência da Computação na Universidade Federal do Piauí.
+A IoB está intrinsecamente ligada à computação, tanto como subárea de IoT, quanto por depender de outros avanços em diversas áreas da informática para funcionar de maneira eficaz e segura: a coleta, transmissão e análise de dados biométricos exigem infraestrutura robusta de computação, incluindo redes de alta velocidade, computação em nuvem e algoritmos avançados de processamento de dados.
 
 ### Informática e Sociedade
 ....
@@ -40,5 +42,8 @@ Sugestões de abordagens baseadas em disciplinas do curso de bacharelado em Ciê
 ### Interface Humano-Computador
 ...
 
-### Tópicos em Sistemas Computacionais
+### Disciplinas que abordem Segurança
+...
+
+### Disciplinas que abordem IoT
 ...
