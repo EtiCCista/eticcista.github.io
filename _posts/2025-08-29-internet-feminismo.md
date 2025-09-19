@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Internet dos corpos e feminismo de dados
-image: /assets/images/example2.jpg
+image: /assets/images/femdados.jpg
 tags:
   - IoT
   - Dados
