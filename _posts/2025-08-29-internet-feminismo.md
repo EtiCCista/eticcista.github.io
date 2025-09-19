@@ -17,8 +17,8 @@ No contexto contemporâneo, a proeminência das aplicações de inteligência ar
 O [feminismo interseccional de dados](https://data-feminism.mitpress.mit.edu), como apresentado por Catherine d’Ignazio e Lauren Klein, complementa o pensamento feminista ao considerar a influência de recortes sociais diversos do gênero, tais como raça, etnia, cultura, religião, sexualidade, nacionalidade, deficiência, entre outros, em sua interpretação da ciência de dados. Essa perspectiva, que tem suas raízes no conceito de [interseccionalidade](https://www.britannica.com/topic/intersectionality) cunhado por Kimberlé Crenshaw em 1989 para abordar a invisibilidade de mulheres negras em movimentos sociais, pode ser um ponto de partida interessante para analisar os potenciais riscos sociais da IoB, reconhecendo a natureza não-neutra dos dados e a importância da inclusão de perspectivas subjugadas.
 
 ## Materiais autorais
-- [Slides sobre o assunto](/materiais/feminismo_internet/slides.pdf)
-- [Notas sobre o assunto](/materiais/feminismo_internet/notas.pdf)
+- Slides sobre o assunto (em breve)
+- Notas sobre o assunto (em breve)
 - Monografia completa (em breve)
 
 ## Artigos interessantes
@@ -29,21 +29,19 @@ O [feminismo interseccional de dados](https://data-feminism.mitpress.mit.edu), c
 ## Recomendações de mídia
 - Livro [Misoginia na Internet, de Mariana Valente](https://internetlab.org.br/wp-content/uploads/2025/08/MisoginiaNaInternet.pdf)
 - Livro [Caiu na net: nudes e exposição de mulheres na Internet](https://editoratelha.com.br/product/caiu-na-net-nudes-e-exposicao-de-mulheres-na-internet)
-- Vídeo []()
-- Vídeo []()
 - Página do IRIS-BH sobre [Cibersegurança e Gênero na América Latina](https://irisbh.com.br/ciberseguranca-e-genero-desafios-e-oportunidades-na-america-latina)
 
 ## Disciplinas
-A IoB está intrinsecamente ligada à computação, tanto como subárea de IoT, quanto por depender de outros avanços em diversas áreas da informática para funcionar de maneira eficaz e segura: a coleta, transmissão e análise de dados biométricos exigem infraestrutura robusta de computação, incluindo redes de alta velocidade, computação em nuvem e algoritmos avançados de processamento de dados.
+A IoB está intrinsecamente ligada à computação, tanto como subárea de *IoT*, quanto por depender de outros avanços em diversas áreas da informática para funcionar de maneira eficaz e segura: a coleta, transmissão e análise de dados biométricos exigem *infraestrutura* robusta de computação, incluindo *redes* de alta velocidade, *computação em nuvem* e *algoritmos* avançados de processamento de dados.
 
 ### Informática e Sociedade
-....
+(Em breve)
 
 ### Interface Humano-Computador
-...
+(Em breve)
 
 ### Disciplinas que abordem Segurança
-...
+(Em breve)
 
 ### Disciplinas que abordem IoT
-...
+(Em breve)
