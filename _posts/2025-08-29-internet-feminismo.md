@@ -17,8 +17,8 @@ No contexto contemporâneo, a proeminência das aplicações de inteligência ar
 O [feminismo interseccional de dados](https://data-feminism.mitpress.mit.edu), como apresentado por Catherine d’Ignazio e Lauren Klein, complementa o pensamento feminista ao considerar a influência de recortes sociais diversos do gênero, tais como raça, etnia, cultura, religião, sexualidade, nacionalidade, deficiência, entre outros, em sua interpretação da ciência de dados. Essa perspectiva, que tem suas raízes no conceito de [interseccionalidade](https://www.britannica.com/topic/intersectionality) cunhado por Kimberlé Crenshaw em 1989 para abordar a invisibilidade de mulheres negras em movimentos sociais, pode ser um ponto de partida interessante para analisar os potenciais riscos sociais da IoB, reconhecendo a natureza não-neutra dos dados e a importância da inclusão de perspectivas subjugadas.
 
 ## Materiais autorais
-- [Slides sobre o assunto](assets/material/feminismo_iob/Slides.pdf)
-- [Notas sobre o assunto](assets/material/feminismo_iob/Notas.pdf)
+- [Slides sobre o assunto](https://eticcista.github.io/assets/material/feminismo_iob/Slides.pdf)
+- [Notas sobre o assunto](https://eticcista.github.io/assets/material/feminismo_iob/Notas.pdf)
 - Monografia completa (em breve)
 
 ## Artigos interessantes
