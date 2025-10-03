@@ -22,9 +22,9 @@ O [feminismo interseccional de dados](https://data-feminism.mitpress.mit.edu), c
 - Monografia completa (em breve)
 
 ## Artigos interessantes
-- [Artigo 1]()
-- [Artigo 2]()
-- [Artigo 3]()
+- [Ciberfeminismo e Educação: discursos, racialidade e questões de gênero](https://share.google/LzVzI8Yfphz4D12OQ)
+- [Cyber-Physical-Social Systems: Taxonomy, Challenges, and Opportunities (em inglês)](https://ieeexplore.ieee.org/document/9757168)
+- [Electronic Design for Wearables Devices Addressed from a Gender Perspective: Cross-Influences and a Methodological Proposal (em inglês)](https://www.mdpi.com/1424-8220/23/12/5483)
 
 ## Recomendações de mídia
 - Livro [Misoginia na Internet, de Mariana Valente](https://internetlab.org.br/wp-content/uploads/2025/08/MisoginiaNaInternet.pdf)
