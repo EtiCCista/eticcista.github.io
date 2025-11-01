@@ -1,0 +1,31 @@
+---
+layout: layouts/base.njk
+title: "EtiCCista"
+---
+
+<section class="hero-post">
+  {# More robust: pick the first post in the collection if present #}
+  {% if collections.posts and collections.posts.length > 0 %}
+    {% set post = collections.posts[0] %}
+  {% else %}
+    {% set post = null %}
+  {% endif %}
+    <section class="posts-section">
+      <p class="welcome">Com a crescente pervasividade da tecnologia na sociedade, questões éticas, legais e sociais são levantadas. Assim, como fazer com que estudantes da área tenham contato com essas questões desde a graduação? Este site reúne materiais para dar os primeiros passos.</p>
+
+      {% if collections.posts and collections.posts.length > 0 %}
+        <div class="posts-grid">
+          {% for post in collections.posts %}
+            <article class="post-card">
+              <a class="post-link" href="{{ post.url }}">
+                <img src="{{ post.data.image }}" alt="{{ post.data.image_alt }}" class="post-image" />
+                <h3 class="post-title">{{ post.data.title }}</h3>
+              </a>
+            </article>
+          {% endfor %}
+        </div>
+      {% else %}
+        <p>Nenhum post encontrado.</p>
+      {% endif %}
+    </section>
+</section>

@@ -1,0 +1,12 @@
+{
+  "name": "eticcista-blog",
+  "version": "0.1.0",
+  "description": "Blog Eleventy minimal compatível com GitHub Pages - EtiCCista",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0"
+  }
+}

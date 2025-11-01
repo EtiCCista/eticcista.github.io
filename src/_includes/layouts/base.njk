@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ title or "EtiCCista" }}</title>
+  <!-- Font Awesome (icons usados no footer) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Favicon (SVG) and fallbacks -->
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="shortcut icon" href="/assets/favicon.svg">
+  <link rel="apple-touch-icon" href="/assets/favicon.svg">
+  <meta name="theme-color" content="#7c3aed">
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  {% include "partials/header.njk" %}
+
+  <main class="site-main">
+    {{ content | safe }}
+  </main>
+
+  {% include "partials/footer.njk" %}
+
+  <script src="/assets/dark-mode.js" defer></script>
+</body>
+</html>
