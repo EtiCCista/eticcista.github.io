@@ -1,11 +1,11 @@
-name: Build and deploy Eleventy to GitHub Pages
+name: Build and deploy Eleventy to GitHub Pages (gh-pages branch)
 
 on:
   push:
     branches: [ main ]
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,24 +23,13 @@ jobs:
       - name: Build Eleventy site
         run: npm run build
 
-      - name: Add .nojekyll to output (prevent Jekyll processing)
-        run: touch _site/.nojekyll
+      - name: Ensure .nojekyll in output
+        run: |
+          if [ ! -f _site/.nojekyll ]; then touch _site/.nojekyll; fi
 
-      - name: Configure Pages
-        uses: actions/configure-pages@v3
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: Deploy to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          path: _site
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-
-    steps:
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          publish_branch: gh-pages
