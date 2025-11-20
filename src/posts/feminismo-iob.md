@@ -7,6 +7,9 @@ layout: layouts/base.njk
 
 > Este é o projeto que deu origem ao EtiCCista. Em breve, acesse a monografia publicada por Ana Carolina sobre o tema.
 
+## Aplicação
+Para este assunto, foi desenvolvida a aplicação [Espelho d'Água](https://eticcista.github.io/espelho) que, através do reconhecimento facial, sugere leituras sobre discriminação algorítmica e disseminação de pseudociência através da academia.
+
 ## Resumo
 A rápida convergência entre tecnologias digitais e o corpo humano, materializada na Internet dos Corpos (IoB) promove avanços significativos e levanta questões cruciais sobre vigilância, autonomia, privacidade e segurança de dados sensíveis, particularmente em relação a grupos minoritários. A IoB é uma rede que se forma entre dispositivos diretamente associados ao corpo físico. Esses dispositivos podem ser wearables, sensores implantados ou ingeríveis, e são capazes de monitorar, analisar e até modificar o corpo humano e seu comportamento, transformando-o em uma plataforma tecnológica.
 
